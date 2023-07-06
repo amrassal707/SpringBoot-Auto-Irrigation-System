@@ -10,14 +10,14 @@ The Application has the following features:
 ## Technologies used were:
 - Java 
 - Spring Boot
-- Junit 
+- SpringRunner.Class 
 
 ## Endpoints
 * GET /api/readall/              returns a list of land plots
 * GET /api/read/{id}             returns the land plot of specific id
 * POST /api/addplot              Creates land plot as desired
 * PUT /api/updateplot/{id}       Updates land plot as desired
-* DELETE /api/deleteplot/{id}}   Deletes land plot based on an id
+* DELETE /api/deleteplot/{id}    Deletes land plot based on an id
 * PUT /api/irrigate/{id}         Irrigates land plot and pushes time slot to the next day
 
 ## Testing
