@@ -3,8 +3,8 @@
 A SpringBoot App that automates the irrigation of land plots.
 The Application has the following features:
 * The Admin adds/updates/deletes/reads all the land plots as desired
-* Each occurence of irrigation of a specific land plot will automatically push the next irrigation of the land by 1 day.
-* The time slot is updated based on the land's time slot, not current time
+* Each occurrence of irrigation of a specific land plot will automatically push the next land irrigation by 1 day.
+* The time slot is updated based on the land's time slot
 
 
 ## Technologies used were:
@@ -14,7 +14,7 @@ The Application has the following features:
 
 ## Endpoints
 * GET /api/readall/              returns a list of land plots
-* GET /api/read/{id}             returns the land plot of specefic id
+* GET /api/read/{id}             returns the land plot of specific id
 * POST /api/addplot              Creates land plot as desired
 * PUT /api/updateplot/{id}       Updates land plot as desired
 * DELETE /api/deleteplot/{id}}   Deletes land plot based on an id
@@ -25,4 +25,4 @@ The Application has the following features:
 
 ## Extra Important Notes
 
-  * all endpoints are done manually, if you want to automate, uncomment the @EnableScheduling in the mainApp and check the SchedulerMain class for the implementation
+  * All endpoints are done manually, if you want to automate, uncomment the @EnableScheduling in the main app and check the SchedulerMain class for the implementation
